@@ -1,0 +1,12 @@
+[package]
+name = "eded"
+version = "0.0.0"
+edition = "2021"
+authors = ["Sun <sun@cympletech.com>"]
+readme = "README.md"
+description = "Embedded Distributed Encrypted Database."
+repository = "https://github.com/cympletech/TDN"
+keywords = ["distributed", "embedded", "encrypted", "database"]
+license = "MIT/Apache-2.0"
+
+[dependencies]
