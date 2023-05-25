@@ -5,8 +5,14 @@ edition = "2021"
 authors = ["Sun <sun@cympletech.com>"]
 readme = "README.md"
 description = "Embedded Distributed Encrypted Database."
-repository = "https://github.com/cympletech/TDN"
+repository = "https://github.com/sunhuachuang/eded"
 keywords = ["distributed", "embedded", "encrypted", "database"]
 license = "MIT/Apache-2.0"
 
+[features]
+default = ["memory-db"]
+memory-db = []
+rocks-db = ["rocksdb"]
+
 [dependencies]
+rocksdb = { version = "0.20", optional = true }

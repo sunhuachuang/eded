@@ -13,6 +13,7 @@ WIP
 - Not only distributed log(database), but also distributed files.
 - Database is fully synchronous.
 - Optional files is fixed and threshold storage, distributed access.
+- Support disk & memory storage
 
 ## License
 
